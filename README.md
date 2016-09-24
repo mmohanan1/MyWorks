@@ -8,7 +8,7 @@ $ [sudo] pip install virtualenv
 Create a virtual environment for a project:
 
 $ cd my_project_folder
-$ virtualenv Mahesh
+$ virtualenv venv
 
 virtualenv venv will create a folder in the current directory which will contain the Python executable files, and a copy of the pip library which you can use to install other packages. The name of the virtual environment (in this case, it was venv) can be anything; omitting the name will place the files in the current directory instead.This creates a copy of Python in whichever directory you ran the command in, placing it in a folder named venv.
 
