@@ -1,2 +1,2 @@
-# MyWorks
-My Works
+# MyWorks - Python
+My Python projects
