@@ -1,28 +1,5 @@
 # MyWorks - Python - VirtualEnv
-Install python libraries on a virtual environment. It creates an environment that has its own installation directories, that doesn’t share libraries with other virtualenv environments (and optionally doesn’t access the globally installed libraries either).
-
-to Install: 
-
-$ [sudo] pip install virtualenv
-
-Create a virtual environment for a project:
-
-$ cd my_project_folder
-$ virtualenv venv
-
-virtualenv venv will create a folder in the current directory which will contain the Python executable files, and a copy of the pip library which you can use to install other packages. The name of the virtual environment (in this case, it was venv) can be anything; omitting the name will place the files in the current directory instead.This creates a copy of Python in whichever directory you ran the command in, placing it in a folder named venv.
-
-You can also use a Python interpreter of your choice.
-
-$ virtualenv -p /usr/bin/python2.7 venv
-This will use the Python interpreter in /usr/bin/python2.7
-
-To begin using the virtual environment, it needs to be activated:
-$ source venv/bin/activate
-
-For more info:
-http://docs.python-guide.org/en/latest/dev/virtualenvs/
-
+This repo contains my Python Experiments.
 
 
 
